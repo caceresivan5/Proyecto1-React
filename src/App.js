@@ -1,15 +1,18 @@
 
-import './App.css';
+import Formulario from './components/Formulario';
+import Header from './components/Header';
+import ListaPacientes from './components/ListaPacientes';
+
+
 
 function App() {
 
   return (
-   <>
-   
-   <h1>hola mundo</h1>
-   
-   
-   </>
+   <div className='container mx-auto'>
+   <Header/>
+   <ListaPacientes/>
+   <Formulario/>
+   </div>
 
   );
 }
