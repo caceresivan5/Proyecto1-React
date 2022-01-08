@@ -1,10 +1,12 @@
-import React from 'react'
 
-const Header = () => {
-    return (
-        <div>
-            <h2 className="text-center">Soy Header</h2>
-        </div>
+import "../styles/header.css"
+
+function Header (){
+    return(
+        <>
+
+    <h1 className="titulo">SEGUIMIENTO PRODUCCION</h1>
+    </>
     )
 }
 

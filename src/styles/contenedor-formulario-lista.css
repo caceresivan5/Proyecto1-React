@@ -1,0 +1,15 @@
+.Contenedor-Formulario-lista{
+    
+    border: 1px solid red;
+    padding: 1rem; 
+}
+.Formulario-lista p{
+    text-align: center;
+ 
+}
+@media(min-width: 630px ) {
+    .Contenedor-Formulario-lista{
+       display: flex;
+       justify-content: space-between;
+    }
+}

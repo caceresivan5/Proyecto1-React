@@ -1,0 +1,14 @@
+
+.ListaCortes{
+    margin: 2rem auto 1rem;
+}
+
+.tituloListaCortes{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+}
+.tituloListaCortes p{
+    text-align: center;
+}

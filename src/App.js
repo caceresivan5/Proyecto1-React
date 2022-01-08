@@ -1,7 +1,9 @@
 
 import Formulario from './components/Formulario';
 import Header from './components/Header';
-import ListaPacientes from './components/ListaPacientes';
+import ListaCortes from './components/ListadoCortes';
+import "../src/styles/contenedor-formulario-lista.css"
+import "../src/styles/listaCortes.css"
 
 
 
@@ -10,8 +12,12 @@ function App() {
   return (
    <div className='container mx-auto'>
    <Header/>
-   <ListaPacientes/>
-   <Formulario/>
+
+   <div className='Contenedor-Formulario-lista'>
+   <Formulario />
+   <ListaCortes />
+   </div>
+   
    </div>
 
   );
