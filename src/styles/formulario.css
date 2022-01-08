@@ -9,4 +9,30 @@
  p{
 text-align: center;
 color: yellow;
+margin-bottom: 5%;
+}
+
+.form{
+    background-color: rgb(39, 40, 45);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+.form-body{
+    text-align: center;
+}
+label{
+    display: grid;
+    color: white;
+    text-transform: uppercase;
+}
+input{
+    background-color: rgb(31, 32, 35);
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    
+    
+}
+.form-Ingreso{
+    margin: 1rem auto;
 }
