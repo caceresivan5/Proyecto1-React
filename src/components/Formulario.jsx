@@ -22,7 +22,7 @@ const Formulario = () => {
                 </div>
                 <div>
                     <label>Parte Estampada</label>
-                    <input type="text" placeholder='Pieza a Estampar'></input>
+                    <input type="text" placeholder='Piezas a Estampar'></input>
                 </div>
                 <div>
                     <label>Cantidad Total</label>
