@@ -1,23 +1,30 @@
+
+
 .titulo{
     text-align: center;
     margin: 2rem auto;
     font-size: 1.5rem;
-    color: white;
+    color: rgb(83, 83, 83);
 }
 .resumen{
     width: 80%;
     height: 10rem;
     border-radius: 0.5rem;
-    background-color: rgb(39, 40, 45);
 
-    
-color: white;
+    background-color: #e5e5e5 ;
+    background-size: 55px;
+    box-shadow: -10px -10px 15px #fff,
+    5px 5px 15px rgb(83, 83, 83),
+    inset 0px 0px 0px #fff,
+    inset 0px 0px 0px rgb(83, 83, 83);
+
+    color: rgb(83, 83, 83);
     margin: 1rem auto;
     font-size: 1.3rem;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
-    border: 1px solid red;
+
 }
 .resumen h2{
    text-align: center;

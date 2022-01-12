@@ -9,11 +9,11 @@
     text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
-    color: white;
+    color: rgb(83, 83, 83);
 }
 .tituloListaCortesAdministralos{
     text-align: center;
-    color: var(--ColorAmarillo);
+    color: rgb(83, 83, 83);
 }
 .ListaCortes-body{
     background-color: var(--ColorFondoClaro);
@@ -24,10 +24,10 @@
 }
 
 .ListaCortes-detalle p{
-    color: white;
+    color: rgb(83, 83, 83);
     padding: 1rem; 
-    color: var(--ColorAmarillo);
+    color: rgb(83, 83, 83);
 }
 .ListaCortes-detalle span{
-    color: white;
+    color: rgb(83, 83, 83);
 }
