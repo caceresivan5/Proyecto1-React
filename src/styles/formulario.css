@@ -6,20 +6,20 @@
     font-weight: bold;
     color: white;
 }
- p{
+.Formulario-tituloP{
 text-align: center;
-color: yellow;
+color: var(--ColorAmarillo);
 margin-bottom: 5%;
 }
 
 .form{
-    background-color: rgb(39, 40, 45);
-    padding: 1.2rem 1rem;
+    background-color: var(--ColorFondoClaro);
     border-radius: 0.5rem;
     
 }
 .form-body{
     text-align: center;
+    padding: 0.5rem;
 }
 label{
     display: grid;
@@ -27,7 +27,7 @@ label{
     text-transform: uppercase;
 }
 input{
-    background-color: rgb(31, 32, 35);
+    background-color: var(--ColorFondoOscuro);
     font-size: 0.9rem;
     padding: 0.5rem;
     margin: 0.6rem;
@@ -39,12 +39,12 @@ input{
     margin: 1rem auto;
 }
 .Btn-enviar{
-    background-color: rgb(31, 32, 35);
+    background-color: var(--ColorFondoOscuro);
     padding: 1rem;
     border-radius: 0.5rem;
-    border: 1px solid red;
+    border: 1px solid var(--ColorRojo);
 }
 .Btn-enviar:hover{
     cursor: pointer;
-    border: 2px solid red;
+    border: 1px solid var(--ColorRojo);
 }

@@ -4,3 +4,25 @@
     font-size: 1.5rem;
     color: white;
 }
+.resumen{
+    width: 80%;
+    height: 10rem;
+    border-radius: 0.5rem;
+    background-color: rgb(39, 40, 45);
+
+    
+color: white;
+    margin: 1rem auto;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    border: 1px solid red;
+}
+.resumen h2{
+   text-align: center;
+   position: absolute;
+   top: 55%;
+   left: 50%;
+   transform: translate(-55%, -50%);
+}
