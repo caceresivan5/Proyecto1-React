@@ -12,7 +12,7 @@ const Formulario = () => {
 
                 <div className='form-Ingreso'>
                     <label htmlFor='fecha'>Fecha</label>
-                    <input id='fecha' type="date" placeholder='Fecha de Ingreso'></input>
+                    <input id='fecha' type="number" placeholder='Fecha de Ingreso'></input>
                 </div>
                 <div className='form-Ingreso'>
                     <label htmlFor='ordenCorte' >Orden de Corte</label>

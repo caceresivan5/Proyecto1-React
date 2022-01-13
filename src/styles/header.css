@@ -9,14 +9,15 @@
 .resumen{
     width: 80%;
     height: 10rem;
-    border-radius: 0.5rem;
-
-    background-color: #e5e5e5 ;
+    background-color: #ebebeb ;
     background-size: 55px;
-    box-shadow: -10px -10px 15px #fff,
-    5px 5px 15px #c1c1c1,
+    box-shadow:  -1px -1px 5px #fff,
+    1px 1px 5px #c1c1c1,
     inset 0px 0px 0px #fff,
     inset 0px 0px 0px #c1c1c1;
+    background-size: 55px;
+
+    border-radius: 0.5rem;
 
     color: rgb(83, 83, 83);
     margin: 1rem auto;
