@@ -24,9 +24,9 @@
 }
 
 .ListaCortes-detalle p{
-    color: rgb(83, 83, 83);
+   color: var( --ColorAmarillo);
     padding: 1rem; 
-    color: rgb(83, 83, 83);
+
 }
 .ListaCortes-detalle span{
     color: rgb(83, 83, 83);

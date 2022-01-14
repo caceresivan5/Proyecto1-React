@@ -5,7 +5,7 @@
 :root{
     --ColorFondoOscuro:rgb(31, 32, 35);
     --ColorFondoClaro:rgb(39, 40, 45);
-    --ColorAmarillo: yellow;
+    --ColorAmarillo: rgb(229, 248, 118);
     --ColorRojo:red;
 }
 

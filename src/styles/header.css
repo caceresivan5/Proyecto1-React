@@ -9,17 +9,10 @@
 .resumen{
     width: 80%;
     height: 10rem;
-    background-color: #ebebeb ;
-
-    box-shadow:  -1px -1px 5px #fff,
-    1px 1px 5px #c1c1c1,
-    inset 0px 0px 0px #fff,
-    inset 0px 0px 0px #c1c1c1;
-    background-size: 55px;
-
+    background-color: var( --ColorFondoClaro);  
     border-radius: 0.5rem;
 
-    color: rgb(83, 83, 83);
+    color: var(--ColorAmarillo);
     margin: 1rem auto;
     font-size: 1.3rem;
     font-weight: bold;
