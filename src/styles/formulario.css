@@ -44,7 +44,7 @@ input{
 .Btn-enviar{
     background-color: var( --ColorAmarillo);
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0.6rem;
 
 }
 .Btn-enviar:hover{
