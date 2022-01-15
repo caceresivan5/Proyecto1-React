@@ -4,19 +4,21 @@ import Header from './components/Header';
 import ListaCortes from './components/ListadoCortes';
 import "../src/styles/contenedor-formulario-lista.css"
 import "../src/styles/listaCortes.css"
+import Footer from './components/Footer';
 
 
 
 function App() {
 
   return (
-   <div className='container mx-auto'>
+   <div >
    <Header/>
 
    <div className='Contenedor-Formulario-lista'>
    <Formulario />
    <ListaCortes />
    </div>
+   <Footer/>
    
    </div>
 

@@ -7,7 +7,8 @@
 }
 @media(min-width: 630px ) {
     .Contenedor-Formulario-lista{
-       display: flex;
-       justify-content: space-between;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+
     }
 }

@@ -21,6 +21,13 @@ const Cortes = () => {
         <div className='ListaCortes-detalle'>
             <p>ESTADO ACTUAL : <span>ENTREGADO</span> </p>
         </div>
+        <div className='ListaCortes-detalle'>
+            <p>OBSERVACIONES : <span>Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Accusantium consequatur exercitationem vitae!
+                 Mollitia facilis, perferendis velit sit quasi fugiat corrupti 
+                 animi laboriosam, nobis, aliquid optio dolores cupiditate aliquam 
+                 quaerat voluptatibus.</span> </p>
+        </div>
         </div>
     )
 }

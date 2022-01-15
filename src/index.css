@@ -13,3 +13,9 @@ body{
    background-color: #ecf0f3;
     
 }
+.footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--ColorFondoClaro);
+    color:  rgb(83, 83, 83);;
+}
