@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react/cjs/react.development'
 import "../styles/formulario.css"
 
-const Formulario = () => {
+const Formulario = ({cortes, setCortes }) => {
 
     const [fecha, setFecha] = useState('');
     const [orden, setOrden] = useState('');
@@ -19,10 +19,29 @@ const Formulario = () => {
             setError(true)
         }else{
             setError(false)
-            console.log('INGRESADO')
+
+            const ObjetoCortes = {
+                fecha, 
+                orden, 
+                cliente, 
+                articulo, 
+                total,
+                 observaciones
+            }
+            
+            setCortes ([...cortes, ObjetoCortes]) // toma una copia de cortes y le agrega el objeto al setCortes
+
+            //reiniciando el form
+            setFecha('');
+            setOrden('');
+            setCliente('');
+            setArticulo('');
+            setTotal('');
+            setObservaciones('');
+
+
         }
         e.preventDefault();
-        console.log('enviando...')
     }
 
     return (
@@ -36,7 +55,7 @@ const Formulario = () => {
 
                 <div className='form-Ingreso'>
                     <label htmlFor='fecha'>Fecha</label>
-                    <input id='fecha' value={ fecha } onChange={ (e)=>setFecha(e.target.value)} type="number" placeholder='Fecha de Ingreso'></input>
+                    <input id='fecha' value={ fecha } onChange={ (e)=>setFecha(e.target.value)} type="date" placeholder='Fecha de Ingreso'></input>
                 </div>
                 <div className='form-Ingreso'>
                     <label htmlFor='ordenCorte' >Orden de Corte</label>
@@ -54,7 +73,7 @@ const Formulario = () => {
                     <label htmlFor='cantidad'>Cantidad Total</label>
                     <input id='cantidad' value={ total } onChange={ (e)=>setTotal(e.target.value)} type="number" placeholder='Cantidad Total'></input>
                 </div>
-                <div>
+                <div className='form-Ingreso'>
                     <label>OBSERVACIONES</label>
                     <textarea name="" id="" value={observaciones} onChange={(e)=>setObservaciones(e.target.value)} cols="30" rows="10"></textarea>
                 </div>

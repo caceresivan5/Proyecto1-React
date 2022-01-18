@@ -1,16 +1,16 @@
 
 .ListaCortes{
-    height: 48rem;
+    height: 58rem;
     overflow-y: scroll;
-    margin: 1rem auto ;
-    width: 90%;
+    margin: 0 auto ;
+
 }
 
 .tituloListaCortes{
     text-align: center;
     font-size: 1.3rem;
     font-weight: bold;
-    color: rgb(83, 83, 83);
+    color: white;
 }
 .tituloListaCortesAdministralos{
     text-align: center;

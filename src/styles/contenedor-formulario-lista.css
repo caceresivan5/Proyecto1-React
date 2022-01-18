@@ -1,5 +1,7 @@
 .Contenedor-Formulario-lista{
-    padding: 2rem; 
+    width: 90%;
+    margin: 1rem auto;
+
 }
 .Formulario-lista p{
     text-align: center;

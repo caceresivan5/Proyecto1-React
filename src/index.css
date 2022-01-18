@@ -5,12 +5,12 @@
 :root{
     --ColorFondoOscuro:rgb(31, 32, 35);
     --ColorFondoClaro:rgb(39, 40, 45);
-    --ColorAmarillo: rgb(229, 248, 118);
+    --ColorAmarillo: rgb(78, 129, 216);
     --ColorRojo:red;
 }
 
 body{
-   background-color: #ecf0f3;
+   background-color: rgb(31,32, 35);
     
 }
 .footer{
