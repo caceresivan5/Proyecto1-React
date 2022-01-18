@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react/cjs/react.development'
 import "../styles/formulario.css"
+import Error from '../components/Error'
 
 const Formulario = ({cortes, setCortes }) => {
 
@@ -8,6 +9,7 @@ const Formulario = ({cortes, setCortes }) => {
     const [orden, setOrden] = useState('');
     const [cliente, setCliente] = useState('');
     const [articulo, setArticulo] = useState('');
+    const [variante, setVariante] = useState('');
     const [total, setTotal] = useState('');
     const [observaciones, setObservaciones] = useState('');
 
@@ -15,7 +17,7 @@ const Formulario = ({cortes, setCortes }) => {
     
     const handleSubmit = (e)=>{
         //validacion del formulario
-        if([fecha, orden, cliente, articulo, total, observaciones].includes('')){ //si hay almenos un elemento de este array vacio
+        if([fecha, orden, cliente, articulo,variante, total, observaciones].includes('')){ //si hay almenos un elemento de este array vacio
             setError(true)
         }else{
             setError(false)
@@ -25,6 +27,7 @@ const Formulario = ({cortes, setCortes }) => {
                 orden, 
                 cliente, 
                 articulo, 
+                variante,
                 total,
                  observaciones
             }
@@ -36,6 +39,7 @@ const Formulario = ({cortes, setCortes }) => {
             setOrden('');
             setCliente('');
             setArticulo('');
+            setVariante('');
             setTotal('');
             setObservaciones('');
 
@@ -70,9 +74,16 @@ const Formulario = ({cortes, setCortes }) => {
                     <input  id='articulo' value={ articulo } onChange={ (e)=>setArticulo(e.target.value)} type="text" placeholder='Articulo'></input>
                 </div>
                 <div className='form-Ingreso'>
+                    <label htmlFor='articulo'>Variante</label>
+                    <input  id='articulo' value={ variante } onChange={ (e)=>setArticulo(e.target.value)} type="text" placeholder='Variante'></input>
+                </div>
+                <div className='form-Ingreso'>
                     <label htmlFor='cantidad'>Cantidad Total</label>
                     <input id='cantidad' value={ total } onChange={ (e)=>setTotal(e.target.value)} type="number" placeholder='Cantidad Total'></input>
                 </div>
+                </div>
+
+                    <div className='Observaciones-Boton'>
                 <div className='form-Ingreso'>
                     <label>OBSERVACIONES</label>
                     <textarea name="" id="" value={observaciones} onChange={(e)=>setObservaciones(e.target.value)} cols="30" rows="10"></textarea>
@@ -80,7 +91,7 @@ const Formulario = ({cortes, setCortes }) => {
                 <input className='Btn-enviar' type="submit" value={'AGREGAR CORTE'}/>
                 </div>
             </form>
-            { error && <div className='ValidacionForm'>TODOS LOS CAMPOS SON OBLIGATORIOS</div> }
+            { error && <Error /> }
             
             
         </div>

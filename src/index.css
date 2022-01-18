@@ -8,9 +8,12 @@
     --ColorAmarillo: rgb(78, 129, 216);
     --ColorRojo:red;
 }
-
+html{
+    position: relative;
+}
 body{
    background-color: rgb(31,32, 35);
+
     
 }
 .footer{
@@ -18,4 +21,7 @@ body{
     padding: 1rem;
     background-color: var(--ColorFondoClaro);
     color:  rgb(83, 83, 83);;
+    width: 100%;
+    position: absolute;
+    margin: 1rem auto 0rem;
 }
